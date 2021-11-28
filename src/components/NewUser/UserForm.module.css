@@ -1,0 +1,34 @@
+.new-user__controls {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.new-user__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-user__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.new-user__actions {
+  text-align: left;
+}
+
+form.invalid input:invalid{
+  background: rgba(255, 0, 0, 0.644);
+  background-color: rgb(241, 109, 109);
+}
