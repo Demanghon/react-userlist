@@ -16,6 +16,7 @@ const App = () => {
 
   return (
     <div>
+      <h1>Dynamic user list</h1>
       <Card>
         <UserForm onUserAdded={addUserHandler} />
       </Card>
